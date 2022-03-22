@@ -1,6 +1,6 @@
 # Bingo Kata Challenge
 
-Solución para juego [Bingo Kata](tddbuddy.com/katas/Bingo%20Kata.pdf).
+Solución para juego [Bingo Kata](http://www.tddbuddy.com/katas/Bingo%20Kata.pdf).
 
 ## Available Scripts
 
