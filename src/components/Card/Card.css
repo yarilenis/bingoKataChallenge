@@ -1,0 +1,36 @@
+.boxNumber {
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  display: inline-block;
+  border: 1px solid #cdc8c8;
+  text-align: center;
+  vertical-align: bottom;
+}
+.boxBall {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  margin: 4px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #cdc8c8;
+  vertical-align: bottom;
+}
+.boxRows {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.titleCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleCard h5 {
+  margin-right: 10px;
+}
