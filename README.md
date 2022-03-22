@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bingo Kata Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Solución para juego [Bingo Kata](tddbuddy.com/katas/Bingo%20Kata.pdf).
 
 ## Available Scripts
 

@@ -122,6 +122,11 @@ class Home extends React.Component {
 
     return (
       <div style={{ padding: '5rem' }}>
+        <div>
+          <h3>
+            <b>Bienvenido a Bingo Kata</b>
+          </h3>
+        </div>
         <div style={{ marginBottom: '1rem' }}>
           <button
             type="button"

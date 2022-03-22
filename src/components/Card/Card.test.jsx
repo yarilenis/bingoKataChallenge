@@ -1,4 +1,3 @@
-// import { mount } from 'enzyme';
 import { render, screen } from '@testing-library/react';
 import Card from './Card';
 
@@ -45,26 +44,9 @@ const dataCard = {
   },
 };
 
-test('Render Card', () => {
-  render(<Card card={dataCard} index="1" />);
-  const linkElement = screen.getByText('Cartilla 1');
-  expect(linkElement).toBeInTheDocument();
+describe('Render Card', () => {
+  it('Verify instance Card', () => {
+    render(<Card card={dataCard} index={1} />);
+    expect(screen.getByText('Cartilla 1')).toBeInTheDocument();
+  });
 });
-
-// describe('Render Card', () => {
-//   let wrapper;
-//   beforeEach(() => {
-//     wrapper = shallow(<Card card={dataCard} index="1" />);
-//     enzymeWrapper = mount(<Card card={dataCard} index="1" />);
-//   });
-
-//   it('Verify instance Card', () => {
-//     const instance = wrapper.instance();
-//     expect(instance).not.toBe(null);
-//   });
-
-//   it('Verify print 5 Rows', () => {
-//     const list = enzymeWrapper.find('.boxRows').children();
-//     expect(list.length).toEqual(5);
-//   });
-// });
